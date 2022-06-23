@@ -1,4 +1,9 @@
 {
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["authenticated"]
+    }],
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
